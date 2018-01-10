@@ -13,4 +13,4 @@ data = json.loads(json_string)
 if data["fa"] == "cc.ee":
     data["fb"]["new_key"] = "cc.ee was present!"
 
-print json.dumps(data)
+return json_string
